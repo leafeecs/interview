@@ -1,6 +1,9 @@
 import random
 
 def selection_sort(data):
+    '''
+    Time Comlexity: O(n^2)
+    '''
     for stand_index in range(len(data) - 1):
         lowest_index = stand_index
         for index in range(stand_index + 1, len(data)):
