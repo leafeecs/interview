@@ -1,7 +1,10 @@
 import random
 
-
 def bubble_sort(data):
+    '''
+    Worst Case: O(n^2)
+    Best Case(If it is already sorted): O(n)
+    '''
     for turn in range(len(data) - 1):
         swap = False
         for condition in range(len(data) - 1 - turn):
